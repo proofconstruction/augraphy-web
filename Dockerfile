@@ -9,4 +9,4 @@ RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 RUN pip install -r augraphy/requirements-dev.txt
 RUN pip install -r requirements.txt
-CMD uvicorn app:app --host=0.0.0.0 --workers=2
+CMD uvicorn main:app --host=0.0.0.0 --workers=2
