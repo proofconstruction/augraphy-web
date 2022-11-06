@@ -12,7 +12,7 @@ def crappify(
     imageFile: bytes = File(),
 ):
 
-    turn the lists of augmentation names into augmentation functions
+    # turn the lists of augmentation names into augmentation functions
     inks = []
     papers = []
     posts = []
